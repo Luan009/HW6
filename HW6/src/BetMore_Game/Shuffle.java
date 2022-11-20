@@ -3,7 +3,7 @@ package BetMore_Game;
 public class Shuffle {
 	
 	
-	public int randNum() {
+	public int pick_card() {
 		
 		double randNum = Math.random()*100;
 		

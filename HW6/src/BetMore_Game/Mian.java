@@ -12,11 +12,14 @@ public class Mian {
 		
 		Player Player_2 = new Player();
 		
-		chair.Start(Computer);
+		Computer.Start();
+
+		Player_2.Start();
 		
-		chair.Start(Player_2);
 		
-		System.out.println(chair.FindWinner(Computer, Player_2));
+		
+		
+		System.out.println(chair.result(Computer, Player_2));
 		
 		
 	}
